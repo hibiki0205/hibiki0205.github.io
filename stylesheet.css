@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding:0;
+  text-align: center;
+  border: none;
+  background-color: black;
+  
+ 
+}
+
+
+
+a{
+  color: white;
+  border:none;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+body{
+  width:1170px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color:rgba(2, 2, 2, 0.8) !important;
+}
+
+.header{
+  color:white;
+  height:40px;
+  line-height: 40px;
+  margin: 0;
+  text-align: center;
+  position: absolute;;
+  position: fixed;
+  width: 100%;
+  z-index:9999;
+  background-image: url(../img/backgroundimage5.webp) ;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+div.anchor{
+  display: block;
+  padding-top: 30px;
+  margin-top: -0px;
+}
+
+.menuicon{
+  width: 40px;
+  
+  height:40px;
+  color:white;
+  background-color: black; 
+} 
+
+.menu{
+  float: right;
+}
+
+
+
+.btn{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0 19px;
+}
+
+
+.topwrapper{
+  height:820px;
+  width:100%;
+  background-image: url(../img/topimg.jpg);
+  background-size:cover;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+
+
+
+.profilewrapper{
+  background-color:rgba(2, 2, 2,0.9);
+  color: white;
+  height: 1000px;
+  /* background-image: url(../img/backgroundimage0.webp); */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+}
+
+.skil{
+  line-height: 40px;
+  font-size: 20px;
+}
+
+h1{
+  margin-top: 90px;
+  letter-spacing:18px;
+  font-size: 80px;
+  color: white;
+  background-color: rgba(2, 2, 2, 0);
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+
+.topwrapper p{
+  margin-top: 210px;
+  letter-spacing:18px;
+  font-size: 40px;
+  color: white;
+  background-color: rgba(2, 2, 2, 0);
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+
+h2{
+  font-size: 70px;
+  border:solid 5px;
+  height: 100px;
+  text-align: center;
+  background-color:gray ;
+  padding:0px;
+  line-height: 100px;
+  border-radius:50px ;
+  width: 1160px;
+  color:black;
+  margin:40px 0 30px 0px;
+  display: block;
+}
+
+.skil-wrapper,.skils{
+  background-color:black;
+  color: white;
+  height: 1000px;
+
+}
+
+.skils{
+  margin-top: 20px;
+  
+}
+
+.skil{
+  width: 30%;
+  height: 500px;
+  border: solid 2px;
+  border-color: greenyellow;
+  margin: 3px;
+  display: inline-block;
+  padding: 9px;
+  vertical-align: middle;
+}
+
+.contactwrapper{
+  background-color:black;
+  color: white;
+  height: 1000px;
+}
+
+.html{
+  width:50%;
+  height :180px;
+}
+
+.contact{
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  width: 300px;
+  margin: 10px;
+}
